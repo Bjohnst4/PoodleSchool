@@ -2,25 +2,52 @@
 <html lang = "en">
 	<head>
 		<title>CPPA Home</title>
+		<meta charset="utf-8">
 		<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
+		<style>
+			body {
+				background-color: white;
+			}
+		</style>
 	</head>
 
 	<body>
-		<h1 class="large-header">Cleveland Poodle Protection Academy</h1>
-		<br>
-		<h1 class ="small-header">Mission Statement</h1>
-		<p>Our main goal is to help to train Poodles in the art of security. For many years, Poodles have been overlooked whenever it comes to security services.  We are here to showcase that with the right training, Poodles can be the best option for security purposes.</p>
+		<header>
+			<h1 class="large-header">Cleveland Poodle Protection Academy</h1>
+			<nav>
+				<div class="wrapper">
+					<a href="aboutus.html"><strong>About Us</strong></a> |
+					<a href ="classes.html"><strong>Classes Offered</strong></a>
+				</div>
+			</nav>
+		</header>
 		
 		<br>
 
-		
-		<div class="button-wrapper">
-			<a href="classes.html"><button class="button">Classes Offered</button></a>
-			<span><a href="contactus.html"><button class="button">Contact Us</button></a></span>
-			<span><a href="aboutus.html"><button class="button">About Us</button></a></span>
-		</div>
+		<main>
+			<h1 style="margin: 10px 30px 10px 30px">Mission Statement</h1>
+			<p class="bottom-border" style="margin: 10px 30px 10px 30px">Our main goal is to help to train Poodles in the art of security. For many years, Poodles have been overlooked whenever it comes to security services.  We are here to showcase that with the right training, Poodles can be the best option for security purposes.</p>
 
-		</br>
+			<div class="wrapper">
+				<p>Click on the image below to learn more about the poodle breed!</p>
+
+				<a href="http://dogtime.com/dog-breeds/poodle#/slide/1"><img src="data:image/jpeg;base64,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" id="home-image" alt="Beware of poodle"></a>
+			</div>
+		</main>
+
+	    <footer>
+	        <nav>
+	            <div class="wrapper">
+	                <a href="contactus.html">Contact Us</a>
+	            </div>
+	        </nav>
+	    </footer>
+
+	    <footer class="credit-footer">
+	    	<h4><strong>Created by Foxtrot Web Design</strong></h4>
+	    	<h4>&#8226; &#169;2017 Foxtrot Web Design &#8226;</h4>
+	    </footer>
+
 	</body>
 </html>
