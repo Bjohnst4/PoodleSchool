@@ -1,3 +1,8 @@
+main {
+	padding: 10px 0px 400px 0px;
+	background-color: lavender;
+}
+
 .center-blue {
 	color: #6190E8;
 	text-align: center;
@@ -16,10 +21,10 @@
 	background: #66CCFF; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #6190E8 , #A7BFE8); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #6190E8 , #A7BFE8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
-	padding: 25px;
+	padding: 35px;
 	margin:-20px;
 	text-align: center;
-	font-size: 75px;
+	font-size: 50px;
 }
 
 .footer {
@@ -30,7 +35,7 @@
 
 .credit-footer {
 	padding: 12px 0px 12px 0px;
-	margin: 10px -10px -10px -10px;
+	margin: 0px -10px -10px -10px;
 	text-align: center;
 	background-color: black;
 	color: white;
@@ -54,7 +59,7 @@
 }
 
 .bottom-border {
-	border-bottom: solid 1px black;
+	border-bottom: solid 3px black;
 }
 
 button {
@@ -69,11 +74,46 @@ body {
 	font-family: 'Lora', serif;
 }
 
-main h1 {
+div img {
 	color: #6190E8;
 	text-align: center;
+	
+}
+
+#white-link {
+	color: white;
 }
 
 a {
 	color: black;
+}
+
+.gradient {
+	background: #66CCFF; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #6190E8 , #A7BFE8); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #6190E8 , #A7BFE8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-links {
+	font-size: 20px;
+	color: black;
+}
+
+/* IDK 
+#anchor {
+	margin: 400px 0px 0px 0px;
+}
+
+*/
+
+#float-left {
+	float: left;
+}
+
+#float-right {
+	float: right;
+}
+
+.padding-bottom {
+	padding-bottom: 5px;
 }
