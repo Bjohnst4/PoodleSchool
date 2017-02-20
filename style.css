@@ -1,5 +1,16 @@
 main {
-	padding: 10px 0px 400px 0px;
+	padding: 10px 0px 365px 0px;
+	background-color: lavender;
+	background-image: url("images/clipart.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+html {
+	background-color: lavender;
+}
+
+body {
 	background-color: lavender;
 }
 
@@ -99,21 +110,38 @@ a {
 	color: black;
 }
 
-/* IDK 
+/* IDK this is not good.
 #anchor {
 	margin: 400px 0px 0px 0px;
 }
-
 */
 
 #float-left {
-	float: left;
+	padding: 0px;
+	width: 49%;
 }
 
 #float-right {
-	float: right;
+	padding: 0px;
+	width: 30%;
 }
 
 .padding-bottom {
 	padding-bottom: 5px;
+}
+
+
+.figure-buffer {
+	margin-top: 70px;
+	margin-right: 80px;
+}
+
+.image-border {
+	border: black 3px solid;
+	background-clip: padding-box;
+	padding: 20px;
+}
+
+footer.clear {
+	clear: both;
 }
