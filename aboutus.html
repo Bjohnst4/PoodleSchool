@@ -19,6 +19,16 @@
 			body {
 				background-color: white;
 			}
+			
+			img {
+				opacity: 0.5;
+				filter: alpha(opacity=50); /* For IE8 and earlier */
+			}
+
+			img:hover {
+				opacity: 1.0;
+				filter: alpha(opacity=100); /* For IE8 and earlier */
+			}
 		</style>
 	</head>
 
@@ -38,7 +48,7 @@
 	    </header>
 
 		<main>
-		<div class="text-center">
+		<div class="text-center" id ="background_pic2">
 			<div class="text-center">
 				<h1 class="center-blue">About Us</h1>
 				<hr>

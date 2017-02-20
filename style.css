@@ -4,6 +4,7 @@ main {
 	background-image: url("images/clipart.png");
 	background-repeat: repeat-x;
 	background-position: bottom;
+	
 }
 
 html {
@@ -144,4 +145,12 @@ a {
 
 footer.clear {
 	clear: both;
+}
+
+#background_pic2 {
+	background-image: url("images/poodle2.jpg");
+	background-size: 100px 130px;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	
 }
