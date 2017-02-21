@@ -154,3 +154,11 @@ footer.clear {
 	background-origin: border-box;
 	
 }
+
+.bigHr {
+    background-color: dimgrey !important;
+    color: dimgrey !important;
+    border: solid 2px dimgrey !important;
+    height: 1px !important;
+    width: 1000px !important;
+}
